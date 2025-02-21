@@ -51,8 +51,10 @@ on:
           - xunlong_orangepi-5-plus
           - xunlong_orangepi-r1-plus
           - xunlong_orangepi-r1-plus-lts
+          - xunlong_orangepi-r1-plus-lts
+          - rumu3f_fine-3399
         required: true
-        default: 'friendlyarm_nanopi-r3s'
+        default: 'rumu3f_fine-3399'
       rootfs_partsize:
         description: '设置软件包大小 单位(MB)'
         required: true
